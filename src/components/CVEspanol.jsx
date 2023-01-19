@@ -86,7 +86,7 @@ function CVEspanol() {
             </a>
             <a
               className="text-dark mx-1"
-              href="https://api.whatsapp.com/send?phone=5493492566832"
+              href="https://api.whatsapp.com/send?phone=5493492513815"
               target="_BLANK"
               rel="noreferrer"
             >
@@ -184,7 +184,7 @@ function CVEspanol() {
               </a>
               <a
                 className="text-dark mx-1"
-                href="https://api.whatsapp.com/send?phone=5493492566832"
+                href="https://api.whatsapp.com/send?phone=5493492513815"
                 target="_BLANK"
                 rel="noreferrer"
               >
@@ -255,7 +255,7 @@ function CVEspanol() {
               </a>
               <a
                 className="text-dark mx-1"
-                href="https://api.whatsapp.com/send?phone=5493492566832"
+                href="https://api.whatsapp.com/send?phone=5493492513815"
                 target="_BLANK"
                 rel="noreferrer"
               >
@@ -342,7 +342,7 @@ function CVEspanol() {
               </a>
               <a
                 className="text-dark mx-1"
-                href="https://api.whatsapp.com/send?phone=5493492566832"
+                href="https://api.whatsapp.com/send?phone=5493492513815"
                 target="_BLANK"
                 rel="noreferrer"
               >
