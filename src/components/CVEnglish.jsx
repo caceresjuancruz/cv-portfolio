@@ -96,7 +96,18 @@ function CVEnglish() {
             <NavLink to="/portfolio">
               <button className="btn btn-dark mt-2 me-1">PORTFOLIO</button>
             </NavLink>
-            <button className="btn btn-dark mt-2 ms-1">DOWNLOAD CV</button>
+            <button className="btn btn-dark mt-2 ms-1">
+              <a
+                className="text-white"
+                href="CVENG_JuanCruzCaceres.pdf"
+                download=""
+                target="_blank"
+                rel="noreferrer"
+                style={{ textDecoration: "none" }}
+              >
+                DOWNLOAD CV
+              </a>
+            </button>
           </div>
           <h2 className="fs-3 mt-4 fw-bold border-bottom">Contact</h2>
           <ul>
@@ -181,7 +192,18 @@ function CVEnglish() {
               <NavLink to="/portfolio">
                 <button className="btn btn-dark mt-2 me-1">PORTFOLIO</button>
               </NavLink>
-              <button className="btn btn-dark mt-2 ms-1">DOWNLOAD CV</button>
+              <button className="btn btn-dark mt-2 ms-1">
+                <a
+                  className="text-white"
+                  href="CVENG_JuanCruzCaceres.pdf"
+                  download=""
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ textDecoration: "none" }}
+                >
+                  DOWNLOAD CV
+                </a>
+              </button>
             </div>
           </div>
           <h2 className="mt-4 display-4">Experience</h2>
@@ -241,7 +263,18 @@ function CVEnglish() {
               <NavLink to="/portfolio">
                 <button className="btn btn-dark mt-2 me-1">PORTFOLIO</button>
               </NavLink>
-              <button className="btn btn-dark mt-2 ms-1">DOWNLOAD CV</button>
+              <button className="btn btn-dark mt-2 ms-1">
+                <a
+                  className="text-white"
+                  href="CVENG_JuanCruzCaceres.pdf"
+                  download=""
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ textDecoration: "none" }}
+                >
+                  DOWNLOAD CV
+                </a>
+              </button>
             </div>
           </div>
           <h2 className="fs-3 mt-4 fw-bold border-bottom">Contact</h2>
@@ -315,7 +348,18 @@ function CVEnglish() {
               <NavLink to="/portfolio">
                 <button className="btn btn-dark mt-2 me-1">PORTFOLIO</button>
               </NavLink>
-              <button className="btn btn-dark mt-2 ms-1">DOWNLOAD CV</button>
+              <button className="btn btn-dark mt-2 ms-1">
+                <a
+                  className="text-white"
+                  href="CVENG_JuanCruzCaceres.pdf"
+                  download=""
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ textDecoration: "none" }}
+                >
+                  DOWNLOAD CV
+                </a>
+              </button>
             </div>
           </div>
         </div>
