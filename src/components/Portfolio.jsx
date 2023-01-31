@@ -5,6 +5,14 @@ import { NavLink } from "react-router-dom";
 function Portfolio() {
   const works = [
     {
+      title: "Products API",
+      description: "API REST made for Megatone Backend Challenge",
+      stack:
+        "HTML, CSS, Bootstrap, C#, ASP.NET CORE MVC, EntityFramework, SQL Server",
+      link: "",
+      repo: "https://github.com/caceresjuancruz/desafio-megatone-backend",
+    },
+    {
       title: "Estudio de Danzas Web",
       description: "Website for 'Estudio de Danzas Viviana Musso'",
       stack: "HTML, CSS, Bootstrap, JavaScript, React",
