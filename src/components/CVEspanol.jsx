@@ -14,15 +14,15 @@ function CVEspanol() {
   const skillsItems = [
     {
       description:
-        "Desarrollo Web Full Stack (HTML, CSS, Bootstrap, JavaScript, TypeScript, React, Next, Node )",
-    },
-    {
-      description:
-        "Bases de Datos (SQL, No SQL, SQL Server, MySQL, MongoDB, IPFS, Modelado de datos)",
+        "Desarrollo Web Full Stack (HTML, CSS, Bootstrap, JavaScript, TypeScript, React, Next, Node)",
     },
     {
       description:
         "Programación (Orientada a Objetos, C#, .NET, MVC, API REST)",
+    },
+    {
+      description:
+        "Bases de Datos (SQL, No SQL, SQL Server, MySQL, MongoDB, IPFS, Modelado de datos)",
     },
     {
       description:
@@ -65,7 +65,7 @@ function CVEspanol() {
   return (
     <Fragment>
       <Header />
-      <div className="row">
+      <div className="row p-0 m-0">
         <div className="col col-md-3 border-end" id="col-desktop">
           <div className="text-center">
             <a
@@ -153,8 +153,18 @@ function CVEspanol() {
             ))}
           </ul>
         </div>
-        <div className="col col-md-9" id="col-main">
-          <h1 className="display-1 fw-bold">Juan Cruz Cáceres</h1>
+        <div className="col col-md-9 " id="col-main">
+          <div className="align-items-center mb-2 profile-container">
+            <div className="text-center">
+              <img
+                className="img rounded-circle border profile-img"
+                style={{ maxWidth: "10rem", filter: "grayscale(100%)" }}
+                src="perfil_cuadrada.png"
+                alt="Profile"
+              />
+            </div>
+            <h1 className="display-1 fw-bold">Juan Cruz Cáceres</h1>
+          </div>
           <h3 className="fw-light fs-2">
             Desarrollador Web Full Stack | Estudiante de Ingeniería Informática
             | Blockchain & Web3
@@ -370,6 +380,12 @@ function CVEspanol() {
         </div>
         <style jsx="true">
           {`
+            .profile-container {
+              display: block;
+              gap: 0;
+              text-align: center;
+            }
+
             #buttons-desktop {
               display: none;
             }
@@ -397,6 +413,11 @@ function CVEspanol() {
               padding-right: 2rem;
             }
             @media (min-width: 576px) {
+              .profile-container {
+                display: flex;
+                gap: 1rem;
+              }
+
               #buttons-desktop {
                 display: block;
               }
