@@ -47,7 +47,7 @@ function CVEspanol() {
 
   const experienceItems = [
     {
-      title: "Full Stack Web Developer Freelance",
+      title: "Desarrollador Web Full Stack Freelance",
       description:
         "Desarrollo de sitios web de manera freelance para diversos clientes, enfocando el diseño en captación de usuarios, conversión de tráfico, UX/UI simple e intuitiva, y priorizando la optimización y SEO de la web. Trabajos realizados con tecnologías como HTML, CSS, Bootstrap, JavaScript, React, Next, Node, CMS, etc.",
       date: "Enero 2022 - Actualidad",
