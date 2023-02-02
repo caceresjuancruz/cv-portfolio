@@ -150,7 +150,7 @@ function CVEnglish() {
             ))}
           </ul>
         </div>
-        <div className="col col-md-9" id="col-main">
+        <div className="col col-md-9 px-4" id="col-main">
           <div className="align-items-center mb-2 profile-container">
             <div className="text-center">
               <img
@@ -241,7 +241,7 @@ function CVEnglish() {
             ))}
           </ul>
         </div>
-        <div className="col col-md-3 border-end" id="col-mobile">
+        <div className="col col-md-3 border-end px-4" id="col-mobile">
           <div id="buttons-desktop">
             <div className="text-center" id="icons-mobile">
               <a
