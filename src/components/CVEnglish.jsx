@@ -27,6 +27,7 @@ function CVEnglish() {
       description:
         "Blockchain & Web3 (DApps, Solidity, Smart Contracts, Hardhat, Web3.js, Ethers.js, EVM)",
     },
+    { description: "Git, GitHub" },
     { description: "Office Package" },
   ];
 
@@ -55,9 +56,14 @@ function CVEnglish() {
 
   const educationItems = [
     {
-      title: "Computer Engineering",
+      title: "Computer Engineering Degree",
       description: "Universidad Católica de Santiago del Estero (Argentina)",
       date: "January 2019 - Present",
+    },
+    {
+      title: "High School Degree in Computer Science",
+      description: "San José College Rafaela (Argentina)",
+      date: "2014 - 2018",
     },
   ];
 
@@ -216,7 +222,10 @@ function CVEnglish() {
               </button>
             </div>
           </div>
-          <h2 className="mt-4 display-4">Experience</h2>
+          <h2 className="mt-4 display-4 d-flex">
+            Experience{" "}
+            <div className="border-bottom my-auto h-25 w-100 mx-2"></div>
+          </h2>
           <ul>
             {experienceItems.map((experienceItem, index) => (
               <li key={index}>
@@ -228,7 +237,10 @@ function CVEnglish() {
               </li>
             ))}
           </ul>
-          <h2 className="mt-5 display-4">Education</h2>
+          <h2 className="mt-5 display-4 d-flex">
+            Education{" "}
+            <div className="border-bottom my-auto h-25 w-100 mx-2"></div>
+          </h2>
           <ul>
             {educationItems.map((educationItem, index) => (
               <li key={index}>

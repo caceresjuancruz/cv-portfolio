@@ -28,6 +28,7 @@ function CVEspanol() {
       description:
         "Blockchain & Web3 (DApps, Solidity, Smart Contracts, Hardhat, Web3.js, Ethers.js, EVM)",
     },
+    { description: "Git, GitHub" },
     { description: "Paquete Office" },
   ];
 
@@ -59,6 +60,11 @@ function CVEspanol() {
       title: "Ingeniería en Informática",
       description: "Universidad Católica de Santiago del Estero (Argentina)",
       date: "Enero 2019 - Actualidad",
+    },
+    {
+      title: "Bachiller en Informática",
+      description: "Colegio San José Rafaela (Argentina)",
+      date: "2014 - 2018",
     },
   ];
 
@@ -219,7 +225,10 @@ function CVEspanol() {
               </button>
             </div>
           </div>
-          <h2 className="mt-4 display-4">Experiencia</h2>
+          <h2 className="mt-4 display-4 d-flex">
+            Experiencia{" "}
+            <div className="border-bottom my-auto h-25 w-100 mx-2"></div>
+          </h2>
           <ul>
             {experienceItems.map((experienceItem, index) => (
               <li key={index}>
@@ -231,7 +240,10 @@ function CVEspanol() {
               </li>
             ))}
           </ul>
-          <h2 className="mt-5 display-4">Educación</h2>
+          <h2 className="mt-5 display-4 d-flex">
+            Educación{" "}
+            <div className="border-bottom my-auto h-25 w-100 mx-2"></div>
+          </h2>
           <ul>
             {educationItems.map((educationItem, index) => (
               <li key={index}>
