@@ -63,7 +63,7 @@ function CVEnglish() {
       company: "FREELANCE",
       description:
         "Freelance website development for various clients, focusing the design on user acquisition, traffic conversion, simple and intuitive UX/UI, and prioritizing web optimization and SEO. Work done with technologies such as HTML, CSS, Bootstrap, JavaScript, React, Next, Node, CMS, etc.",
-      date: "January 2022 - Present",
+      date: "January 2022 - March 2023",
     },
   ];
 
