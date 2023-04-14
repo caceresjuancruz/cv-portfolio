@@ -1,5 +1,10 @@
 import React, { Fragment } from "react";
-import { FaGithubSquare, FaLinkedin, FaWhatsappSquare } from "react-icons/fa";
+import {
+  FaGithubSquare,
+  FaLinkedin,
+  FaWhatsappSquare,
+  FaBriefcase,
+} from "react-icons/fa";
 import { ImLocation } from "react-icons/im";
 import { NavLink } from "react-router-dom";
 import Header from "./Header";
@@ -28,7 +33,7 @@ function CVEspanol() {
       description:
         "Blockchain & Web3 (DApps, Solidity, Smart Contracts, Hardhat, Web3.js, Ethers.js, EVM)",
     },
-    { description: "Git, GitHub" },
+    { description: "Git, GitHub, GitLab" },
     { description: "Paquete Office" },
   ];
 
@@ -48,10 +53,18 @@ function CVEspanol() {
 
   const experienceItems = [
     {
-      title: "Desarrollador Web Full Stack Freelance",
+      title: "Desarrollador Full Stack",
+      company: "MEGATONE",
+      description:
+        "Desarrollo y mantenimiento de APIs en C# .NET Framework y .NET Core, Manejo de SQL Server y SSMS. Desarrollo desktop con WinForms. Escalabilidad, arquitectura, analisis, optimización e implementación de nuevos sistemas.",
+      date: "Marzo 2023 - Actualidad",
+    },
+    {
+      title: "Desarrollador Web Full Stack",
+      company: "FREELANCE",
       description:
         "Desarrollo de sitios web de manera freelance para diversos clientes, enfocando el diseño en captación de usuarios, conversión de tráfico, UX/UI simple e intuitiva, y priorizando la optimización y SEO de la web. Trabajos realizados con tecnologías como HTML, CSS, Bootstrap, JavaScript, React, Next, Node, CMS, etc.",
-      date: "Enero 2022 - Actualidad",
+      date: "Enero 2022 - Marzo 2023",
     },
   ];
 
@@ -235,6 +248,10 @@ function CVEspanol() {
                 <p className="fs-4 m-0">
                   <b className="me-2">{experienceItem.title} | </b>
                   {experienceItem.date}
+                </p>
+                <p className="fs-5 m-0 d-flex gap-2 align-items-start">
+                  <FaBriefcase size={25} />
+                  {experienceItem.company}
                 </p>
                 <p className="fs-6">{experienceItem.description}</p>
               </li>

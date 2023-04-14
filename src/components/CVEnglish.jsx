@@ -1,5 +1,10 @@
 import React, { Fragment } from "react";
-import { FaGithubSquare, FaLinkedin, FaWhatsappSquare } from "react-icons/fa";
+import {
+  FaGithubSquare,
+  FaLinkedin,
+  FaWhatsappSquare,
+  FaBriefcase,
+} from "react-icons/fa";
 import { ImLocation } from "react-icons/im";
 import { NavLink } from "react-router-dom";
 import Header from "./Header";
@@ -27,7 +32,7 @@ function CVEnglish() {
       description:
         "Blockchain & Web3 (DApps, Solidity, Smart Contracts, Hardhat, Web3.js, Ethers.js, EVM)",
     },
-    { description: "Git, GitHub" },
+    { description: "Git, GitHub, GitLab" },
     { description: "Office Package" },
   ];
 
@@ -47,7 +52,15 @@ function CVEnglish() {
 
   const experienceItems = [
     {
-      title: "Full Stack Web Developer Freelance",
+      title: "Full Stack Developer",
+      company: "MEGATONE",
+      description:
+        "C# .NET Framework and .NET Core API Development and maintenance, Management of SQL Server and SSMS. Desktop applications development with WinForms. Scalability, architecture, analysis, optimization and implementation of new systems.",
+      date: "March 2023 - Present",
+    },
+    {
+      title: "Full Stack Web Developer",
+      company: "FREELANCE",
       description:
         "Freelance website development for various clients, focusing the design on user acquisition, traffic conversion, simple and intuitive UX/UI, and prioritizing web optimization and SEO. Work done with technologies such as HTML, CSS, Bootstrap, JavaScript, React, Next, Node, CMS, etc.",
       date: "January 2022 - Present",
@@ -232,6 +245,10 @@ function CVEnglish() {
                 <p className="fs-4 m-0">
                   <b className="me-2">{experienceItem.title} | </b>
                   {experienceItem.date}
+                </p>
+                <p className="fs-5 m-0 d-flex gap-2 align-items-start">
+                  <FaBriefcase size={25} />
+                  {experienceItem.company}
                 </p>
                 <p className="fs-6">{experienceItem.description}</p>
               </li>
