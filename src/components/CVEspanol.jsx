@@ -49,7 +49,7 @@ function CVEspanol() {
 
   const experienceItems = [
     {
-      title: "Desarrollador Full Stack",
+      title: "Desarrollador Back End",
       company: "MEGATONE",
       description:
         "Desarrollo y mantenimiento de APIs en C# .NET Framework y .NET Core, Manejo de SQL Server y SSMS. Desarrollo desktop con WinForms. Escalabilidad, arquitectura, analisis, optimización e implementación de nuevos sistemas.",
