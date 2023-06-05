@@ -19,18 +19,15 @@ function CVEnglish() {
   const skillsItems = [
     {
       description:
-        "Full Stack Web Development (HTML, CSS, Bootstrap, JavaScript, TypeScript, React, Next, Node)",
-    },
-    {
-      description: "Programming (Object Oriented, C#, .NET, MVC, API REST)",
+        "Full Stack Web Development (HTML, CSS, Bootstrap, JavaScript, TypeScript, React, Next, Node, C# NET, MVC, API REST)",
     },
     {
       description:
-        "Databases (SQL, No SQL, SQL Server, MySQL, MongoDB, IPFS, Data modeling)",
+        "Databases (SQL, No SQL, SQL Server, MySQL, MongoDB, Oracle, Data modeling)",
     },
     {
       description:
-        "Blockchain & Web3 (DApps, Solidity, Smart Contracts, Hardhat, Web3.js, Ethers.js, EVM)",
+        "Blockchain & Web3 (DApps, Solidity, Smart Contracts, Hardhat, Web3.js, Ethers.js, IPFS, EVM)",
     },
     { description: "Git, GitHub, GitLab" },
     { description: "Office Package" },
@@ -52,7 +49,7 @@ function CVEnglish() {
 
   const experienceItems = [
     {
-      title: "Full Stack Developer",
+      title: "Back End Developer",
       company: "MEGATONE",
       description:
         "C# .NET Framework and .NET Core API Development and maintenance, Management of SQL Server and SSMS. Desktop applications development with WinForms. Scalability, architecture, analysis, optimization and implementation of new systems.",
@@ -112,9 +109,9 @@ function CVEnglish() {
             </a>
           </div>
           <div className="text-center">
-            <NavLink to="/portfolio">
+            {/* <NavLink to="/portfolio">
               <button className="btn btn-dark mt-2 me-1">PORTFOLIO</button>
-            </NavLink>
+            </NavLink> */}
             <button className="btn btn-dark mt-2 ms-1">
               <a
                 className="text-white"
@@ -218,9 +215,9 @@ function CVEnglish() {
               </a>
             </div>
             <div className="text-center">
-              <NavLink to="/portfolio">
+              {/* <NavLink to="/portfolio">
                 <button className="btn btn-dark mt-2 me-1">PORTFOLIO</button>
-              </NavLink>
+              </NavLink> */}
               <button className="btn btn-dark mt-2 ms-1">
                 <a
                   className="text-white"
@@ -299,9 +296,9 @@ function CVEnglish() {
               </a>
             </div>
             <div className="text-center">
-              <NavLink to="/portfolio">
+              {/* <NavLink to="/portfolio">
                 <button className="btn btn-dark mt-2 me-1">PORTFOLIO</button>
-              </NavLink>
+              </NavLink> */}
               <button className="btn btn-dark mt-2 ms-1">
                 <a
                   className="text-white"
@@ -384,9 +381,9 @@ function CVEnglish() {
               </a>
             </div>
             <div className="text-center mb-3">
-              <NavLink to="/portfolio">
+              {/* <NavLink to="/portfolio">
                 <button className="btn btn-dark mt-2 me-1">PORTFOLIO</button>
-              </NavLink>
+              </NavLink> */}
               <button className="btn btn-dark mt-2 ms-1">
                 <a
                   className="text-white"

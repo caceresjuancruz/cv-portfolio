@@ -19,19 +19,15 @@ function CVEspanol() {
   const skillsItems = [
     {
       description:
-        "Desarrollo Web Full Stack (HTML, CSS, Bootstrap, JavaScript, TypeScript, React, Next, Node)",
+        "Desarrollo Web Full Stack (HTML, CSS, Bootstrap, JavaScript, TypeScript, React, Next, Node, C# .NET, MVC, API REST)",
     },
     {
       description:
-        "Programación (Orientada a Objetos, C#, .NET, MVC, API REST)",
+        "Bases de Datos (SQL, No SQL, SQL Server, MySQL, MongoDB, Oracle, Modelado de datos)",
     },
     {
       description:
-        "Bases de Datos (SQL, No SQL, SQL Server, MySQL, MongoDB, IPFS, Modelado de datos)",
-    },
-    {
-      description:
-        "Blockchain & Web3 (DApps, Solidity, Smart Contracts, Hardhat, Web3.js, Ethers.js, EVM)",
+        "Blockchain & Web3 (DApps, Solidity, Smart Contracts, HardHat, Web3.js, Ethers.js, IPFS, EVM)",
     },
     { description: "Git, GitHub, GitLab" },
     { description: "Paquete Office" },
@@ -113,9 +109,9 @@ function CVEspanol() {
             </a>
           </div>
           <div className="text-center">
-            <NavLink to="/portfolio">
+            {/* <NavLink to="/portfolio">
               <button className="btn btn-dark mt-2 me-1">PORTFOLIO</button>
-            </NavLink>
+            </NavLink> */}
             <button className="btn btn-dark mt-2 ms-1">
               <a
                 className="text-white"
@@ -221,9 +217,9 @@ function CVEspanol() {
               </a>
             </div>
             <div className="text-center">
-              <NavLink to="/portfolio">
+              {/* <NavLink to="/portfolio">
                 <button className="btn btn-dark mt-2 me-1">PORTFOLIO</button>
-              </NavLink>
+              </NavLink> */}
               <button className="btn btn-dark mt-2 ms-1">
                 <a
                   className="text-white"
@@ -302,9 +298,9 @@ function CVEspanol() {
               </a>
             </div>
             <div className="text-center">
-              <NavLink to="/portfolio">
+              {/* <NavLink to="/portfolio">
                 <button className="btn btn-dark mt-2 me-1">PORTFOLIO</button>
-              </NavLink>
+              </NavLink> */}
               <button className="btn btn-dark mt-2 ms-1">
                 <a
                   className="text-white"
@@ -389,9 +385,9 @@ function CVEspanol() {
               </a>
             </div>
             <div className="text-center mb-3">
-              <NavLink to="/portfolio">
+              {/* <NavLink to="/portfolio">
                 <button className="btn btn-dark mt-2 me-1">PORTFOLIO</button>
-              </NavLink>
+              </NavLink> */}
               <button className="btn btn-dark mt-2 ms-1">
                 <a
                   className="text-white"
