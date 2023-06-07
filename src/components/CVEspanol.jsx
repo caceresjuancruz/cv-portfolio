@@ -14,12 +14,17 @@ function CVEspanol() {
     { icon: "", description: "caceresjuan.dev@gmail.com" },
     { icon: "", description: "+5493492513815" },
     { icon: "", description: "linkedin.com/in/caceresjuancruz" },
+    { icon: "", description: "Nacionalidad: Argentina / Italiana" },
   ];
 
   const skillsItems = [
     {
       description:
-        "Desarrollo Web Full Stack (HTML, CSS, Bootstrap, JavaScript, TypeScript, React, Next, Node, C# .NET, MVC, API REST)",
+        "Desarrollo Web Front End (HTML, CSS, Bootstrap, Tailwind, JavaScript, React.js, Next.js)",
+    },
+    {
+      description:
+        "Desarrollo Web Back End (TypeScript, Node.js, Express.js, Nest.js, C# .NET, API REST)",
     },
     {
       description:
@@ -27,9 +32,9 @@ function CVEspanol() {
     },
     {
       description:
-        "Blockchain & Web3 (DApps, Solidity, Smart Contracts, HardHat, Web3.js, Ethers.js, IPFS, EVM)",
+        "Blockchain & Web3 (DApps, Solidity, Smart Contracts, HardHat, Web3.js, Ethers.js, IPFS)",
     },
-    { description: "Git, GitHub, GitLab" },
+    { description: "Git, GitHub, GitLab, Trello, Scrum" },
     { description: "Paquete Office" },
   ];
 
@@ -59,7 +64,7 @@ function CVEspanol() {
       title: "Desarrollador Web Full Stack",
       company: "FREELANCE",
       description:
-        "Desarrollo de sitios web de manera freelance para diversos clientes, enfocando el diseño en captación de usuarios, conversión de tráfico, UX/UI simple e intuitiva, y priorizando la optimización y SEO de la web. Trabajos realizados con tecnologías como HTML, CSS, Bootstrap, JavaScript, React, Next, Node, CMS, etc.",
+        "Desarrollo de sitios web de manera freelance, enfocando el diseño en captación de usuarios, conversión de tráfico, UX/UI simple e intuitiva, y priorizando la optimización y SEO de la web. Trabajos realizados con tecnologías como HTML, CSS, Bootstrap, JavaScript, React, Next, Node, CMS, etc.",
       date: "Enero 2022 - Marzo 2023",
     },
   ];
@@ -125,7 +130,9 @@ function CVEspanol() {
               </a>
             </button>
           </div>
-          <h2 className="fs-3 mt-4 fw-bold border-bottom">Contacto</h2>
+          <h2 className="fs-3 mt-4 fw-bold border-bottom">
+            Sobre Mi / Contacto
+          </h2>
           <ul>
             {contactItems.map((contactItem, index) => (
               <li className="fs-5 text-break" key={index}>
@@ -315,7 +322,9 @@ function CVEspanol() {
               </button>
             </div>
           </div>
-          <h2 className="fs-3 mt-4 fw-bold border-bottom">Contacto</h2>
+          <h2 className="fs-3 mt-4 fw-bold border-bottom">
+            Sobre Mi / Contacto
+          </h2>
           <ul>
             {contactItems.map((contactItem, index) => (
               <li className="fs-5 text-break" key={index}>
