@@ -6,7 +6,6 @@ import {
   FaBriefcase,
 } from "react-icons/fa";
 import { ImLocation } from "react-icons/im";
-import { NavLink } from "react-router-dom";
 import Header from "./Header";
 
 function CVEspanol() {
@@ -24,7 +23,7 @@ function CVEspanol() {
     },
     {
       description:
-        "Desarrollo Web Back End (TypeScript, Node.js, Express.js, Nest.js, C# .NET, API REST)",
+        "Desarrollo Web Back End (API REST, MVC, C#, .NET Framework, ASP .NET CORE, Entity Framework, TypeScript, Node.js, Express.js, Prisma)",
     },
     {
       description:
@@ -57,7 +56,7 @@ function CVEspanol() {
       title: "Desarrollador Back End",
       company: "MEGATONE",
       description:
-        "Desarrollo y mantenimiento de APIs en C# .NET Framework y .NET Core, Manejo de SQL Server y SSMS. Desarrollo desktop con WinForms. Escalabilidad, arquitectura, analisis, optimización e implementación de nuevos sistemas.",
+        "Desarrollo y mantenimiento de APIs en C# .NET Framework y .NET Core, Entity Framework, Manejo de SQL Server y SSMS. Desarrollo desktop con WinForms. Escalabilidad, arquitectura, analisis, optimización e implementación de nuevos sistemas.",
       date: "Marzo 2023 - Actualidad",
     },
     {
@@ -188,8 +187,8 @@ function CVEspanol() {
             <h1 className="display-1 fw-bold">Juan Cruz Cáceres</h1>
           </div>
           <h3 className="fw-light fs-2">
-            Desarrollador Web Full Stack | Estudiante de Ingeniería Informática
-            | Blockchain & Web3
+            Desarrollador Web Full Stack | Ingeniería Informática | Blockchain &
+            Web3
           </h3>
 
           <h4 className="">

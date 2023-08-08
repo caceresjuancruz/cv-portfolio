@@ -6,7 +6,6 @@ import {
   FaBriefcase,
 } from "react-icons/fa";
 import { ImLocation } from "react-icons/im";
-import { NavLink } from "react-router-dom";
 import Header from "./Header";
 
 function CVEnglish() {
@@ -24,7 +23,7 @@ function CVEnglish() {
     },
     {
       description:
-        "Back End Web Development (TypeScript, Node.js, Express.js, Nest.js, C# .NET, API REST)",
+        "Back End Web Development (API REST, MVC, C#, .NET Framework, ASP .NET CORE, Entity Framework, TypeScript, Node.js, Express.js, Prisma)",
     },
     {
       description:
@@ -57,7 +56,7 @@ function CVEnglish() {
       title: "Back End Developer",
       company: "MEGATONE",
       description:
-        "C# .NET Framework and .NET Core API Development and maintenance, Management of SQL Server and SSMS. Desktop applications development with WinForms. Scalability, architecture, analysis, optimization and implementation of new systems.",
+        "C# .NET Framework and .NET Core API Development and maintenance, Entity Framework, Management of SQL Server and SSMS. Desktop applications development with WinForms. Scalability, architecture, analysis, optimization and implementation of new systems.",
       date: "March 2023 - Present",
     },
     {
@@ -186,8 +185,7 @@ function CVEnglish() {
             <h1 className="display-1 fw-bold">Juan Cruz Cáceres</h1>
           </div>
           <h3 className="fw-light fs-2">
-            Full Stack Web Developer | Computer Engineering Student | Blockchain
-            & Web3
+            Full Stack Web Developer | Computer Engineering | Blockchain & Web3
           </h3>
 
           <h4 className="">
