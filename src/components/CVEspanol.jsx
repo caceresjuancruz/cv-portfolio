@@ -23,7 +23,7 @@ function CVEspanol() {
     },
     {
       description:
-        "Desarrollo Web Back End (API REST, MVC, C#, .NET Framework, ASP .NET CORE, Entity Framework, TypeScript, Node.js, Express.js, Prisma)",
+        "Desarrollo Web Back End (API REST, MVC, C#, .NET Framework, ASP .NET CORE, Entity Framework, TypeScript, Node.js, Express.js, Nest.js, Prisma)",
     },
     {
       description:
@@ -33,7 +33,7 @@ function CVEspanol() {
       description:
         "Blockchain & Web3 (DApps, Solidity, Smart Contracts, HardHat, Web3.js, Ethers.js, IPFS)",
     },
-    { description: "Git, GitHub, GitLab, Trello, Scrum" },
+    { description: "Git, GitHub, GitLab, Trello, Scrum, Jira" },
     { description: "Paquete Office" },
   ];
 
@@ -46,6 +46,10 @@ function CVEspanol() {
 
   const certificationsItems = [
     {
+      description: "JSMastery PRO Ultimate Next.js 14 Course",
+      credential: "https://certificate.jsmastery.pro/verify/4aaec6a910546",
+    },
+    {
       description: "EF SET English Certificate 75/100 (C2 Proficient)",
       credential: "https://www.efset.org/cert/Ddcams",
     },
@@ -53,11 +57,18 @@ function CVEspanol() {
 
   const experienceItems = [
     {
+      title: "Desarrollador Full Stack",
+      company: "Folder IT",
+      description:
+        "Desarrollo web full-stack con React.js, Next.js, Nest.js, Prisma, PostgreSQL, y Tailwind CSS.",
+      date: "Noviembre 2023 - Actualidad",
+    },
+    {
       title: "Desarrollador Back End",
       company: "MEGATONE",
       description:
         "Desarrollo y mantenimiento de APIs en C# .NET Framework y .NET Core, Entity Framework, Manejo de SQL Server y SSMS. Desarrollo desktop con WinForms. Escalabilidad, arquitectura, analisis, optimización e implementación de nuevos sistemas.",
-      date: "Marzo 2023 - Actualidad",
+      date: "Marzo 2023 - Noviembre 2023",
     },
     {
       title: "Desarrollador Web Full Stack",
@@ -69,6 +80,11 @@ function CVEspanol() {
   ];
 
   const educationItems = [
+    {
+      title: "Desarrollo Web Full Stack",
+      description: "Autodidacta",
+      date: "",
+    },
     {
       title: "Ingeniería en Informática",
       description: "Universidad Católica de Santiago del Estero (Argentina)",

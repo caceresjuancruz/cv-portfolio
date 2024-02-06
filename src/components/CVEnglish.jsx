@@ -23,7 +23,7 @@ function CVEnglish() {
     },
     {
       description:
-        "Back End Web Development (API REST, MVC, C#, .NET Framework, ASP .NET CORE, Entity Framework, TypeScript, Node.js, Express.js, Prisma)",
+        "Back End Web Development (API REST, MVC, C#, .NET Framework, ASP .NET CORE, Entity Framework, TypeScript, Nest.js, Node.js, Express.js, Prisma)",
     },
     {
       description:
@@ -33,7 +33,7 @@ function CVEnglish() {
       description:
         "Blockchain & Web3 (DApps, Solidity, Smart Contracts, HardHat, Web3.js, Ethers.js, IPFS)",
     },
-    { description: "Git, GitHub, GitLab, Trello, Scrum" },
+    { description: "Git, GitHub, GitLab, Trello, Scrum, Jira" },
     { description: "Office Package" },
   ];
 
@@ -46,6 +46,10 @@ function CVEnglish() {
 
   const certificationsItems = [
     {
+      description: "JSMastery PRO Ultimate Next.js 14 Course",
+      credential: "https://certificate.jsmastery.pro/verify/4aaec6a910546",
+    },
+    {
       description: "EF SET English Certificate 75/100 (C2 Proficient)",
       credential: "https://www.efset.org/cert/Ddcams",
     },
@@ -53,11 +57,18 @@ function CVEnglish() {
 
   const experienceItems = [
     {
+      title: "Software Developer",
+      company: "Folder IT",
+      description:
+        "Full-stack web development with technologies such as React.js, Next.js, Nest.js, Prisma, PostgreSQL.",
+      date: "November 2023 - Present",
+    },
+    {
       title: "Back End Developer",
       company: "MEGATONE",
       description:
         "C# .NET Framework and .NET Core API Development and maintenance, Entity Framework, Management of SQL Server and SSMS. Desktop applications development with WinForms. Scalability, architecture, analysis, optimization and implementation of new systems.",
-      date: "March 2023 - Present",
+      date: "March 2023 - November 2023",
     },
     {
       title: "Full Stack Web Developer",
@@ -69,6 +80,11 @@ function CVEnglish() {
   ];
 
   const educationItems = [
+    {
+      title: "Full Stack Web Development",
+      description: "Self-taught",
+      date: "",
+    },
     {
       title: "Computer Engineering Degree",
       description: "Universidad Católica de Santiago del Estero (Argentina)",
